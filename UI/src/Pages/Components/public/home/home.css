@@ -1,0 +1,370 @@
+/*
+  Remember to save this file as 'style.css'
+  and link it in your HTML <head> like this:
+  <link rel="stylesheet" href="style.css">
+*/
+
+/* --- 1. Global Reset & Variables --- */
+:root {
+    --primary-color: #007bff; /* Blue for primary actions/buttons */
+    --secondary-color: #6c757d; /* Grey for subtle text/borders */
+    --accent-color: #ffc107; /* Yellow for highlights/sale tags */
+    --text-dark: #343a40;
+    --text-light: #f8f9fa;
+    --background-light: #ffffff;
+    --background-dark: #212529;
+    --spacing-unit: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: #f4f7f6; /* Light grey background */
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+h1, h2, h3 {
+    margin-bottom: var(--spacing-unit);
+    color: var(--text-dark);
+}
+
+section {
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+/* --- 2. Header & Navigation --- */
+header {
+    background-color: var(--background-light);
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: var(--text-dark);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+.utility-links a {
+    margin-left: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* --- 3. Hero Section --- */
+#hero {
+    background: url('images.jpeg') center/cover no-repeat;
+    background-color: #343a40; /* Fallback dark color */
+    color: var(--text-light);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Override section padding */
+    position: relative;
+    /* Optional: Add a dark overlay for better text readability */
+    /* &::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1; } */
+}
+
+.hero-content {
+    max-width: 600px;
+    z-index: 2;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* --- 4. Featured Products --- */
+#featured h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-card {
+    background-color: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .price {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .description {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.add-to-cart {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #e0a800;
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* --- 5. Categories Section --- */
+#categories {
+    background-color: var(--background-light);
+}
+
+.category-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.category-tile {
+    display: block;
+    padding: 2rem 3rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--text-light);
+    color: var(--primary-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    min-width: 200px;
+}
+
+.category-tile:hover {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    transform: translateY(-3px);
+}
+
+/* --- 6. Newsletter/Final CTA --- */
+#newsletter {
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    padding: 3rem 10%;
+}
+
+#newsletter h2 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+#newsletter p {
+    margin-bottom: 1.5rem;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+#newsletter input[type="email"] {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.subscribe-button {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #e0a800;
+}
+
+/* --- 7. Footer --- */
+footer {
+    background-color: var(--text-dark);
+    color: var(--secondary-color);
+    padding: 2rem 10%;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: var(--secondary-color);
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: var(--text-light);
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* --- 8. Responsive Adjustments (Optional but highly recommended) --- */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem 5%;
+    }
+
+    nav ul {
+        margin: 1rem 0;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 0.5rem;
+    }
+
+    .utility-links {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 0.5rem;
+        border-top: 1px solid #e7e7e7;
+    }
+
+    #hero {
+        height: 50vh;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr; /* Stack products on small screens */
+    }
+
+    #newsletter form {
+        flex-direction: column;
+    }
+
+    #newsletter input[type="email"],
+    .subscribe-button {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-nav a {
+        margin: 0.25rem 0;
+    }
+}
