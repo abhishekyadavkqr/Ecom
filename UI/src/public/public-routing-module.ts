@@ -7,10 +7,6 @@ const routes=[{
     path: 'h',
     component: HomeComponent, // ✅ required to fix NG04014
   }];
-
-
-
-
 @NgModule({
   declarations: [],
   imports: [

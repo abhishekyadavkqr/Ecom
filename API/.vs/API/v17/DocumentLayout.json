@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{524C70CC-A169-48E1-9AEF-189142DB3D81}|BusinessDTO\\BusinessDTO.csproj|solutionrelative:businessdto\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|e:\\checkout\\ecom\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|e:\\checkout\\ecom\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|e:\\checkout\\ecom\\api\\api\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|solutionrelative:api\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|e:\\checkout\\ecom\\api\\api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|solutionrelative:api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|e:\\checkout\\ecom\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3542C72-5FC6-4014-8EC2-392649191F60}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CheckOut\\Ecom\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "E:\\CheckOut\\Ecom\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAMzMzMzMrwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T14:40:14.011Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,26 +57,26 @@
               "RelativeDocumentMoniker": "BusinessDTO\\ProductDTO\\ProductDTO.cs",
               "ToolTip": "E:\\CheckOut\\Ecom\\API\\BusinessDTO\\ProductDTO\\ProductDTO.cs",
               "RelativeToolTip": "BusinessDTO\\ProductDTO\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T17:36:47.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UsermanagementController.cs",
               "DocumentMoniker": "E:\\CheckOut\\Ecom\\API\\API\\Controllers\\UsermanagementController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UsermanagementController.cs",
               "ToolTip": "E:\\CheckOut\\Ecom\\API\\API\\Controllers\\UsermanagementController.cs",
               "RelativeToolTip": "API\\Controllers\\UsermanagementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T17:17:57.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AdminController.cs",
               "DocumentMoniker": "E:\\CheckOut\\Ecom\\API\\API\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AdminController.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationController.cs",
               "DocumentMoniker": "E:\\CheckOut\\Ecom\\API\\API\\Controllers\\ApplicationController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ApplicationController.cs",
@@ -83,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\CheckOut\\Ecom\\API\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
               "ToolTip": "E:\\CheckOut\\Ecom\\API\\API\\Properties\\launchSettings.json",
               "RelativeToolTip": "API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-29T18:30:34.778Z"
             }

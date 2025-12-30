@@ -7,5 +7,16 @@ namespace API.Controllers
     [ApiController]
     public class UsermanagementController : ControllerBase
     {
+
+
+
+
+        [HttpGet("getName")]
+        public List<string> getName()
+        {
+
+
+            return new List<string>();
+        }
     }
 }

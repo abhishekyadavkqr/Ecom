@@ -8,6 +8,10 @@ E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\API.dll
 E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\API.pdb
 E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Serilog.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\rpswa.dswa.cache.json
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,6 +20,7 @@ E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.AssemblyInfo.cs
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.sourcelink.json
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -31,3 +36,8 @@ E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\refint\API.dll
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.pdb
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 E:\CheckOut\Ecom\API\API\obj\Debug\net9.0\ref\API.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\CheckOut\Ecom\API\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
